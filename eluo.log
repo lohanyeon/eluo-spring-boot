@@ -1,0 +1,236 @@
+2019-05-14 13:32:11.990  INFO 23896 --- [main] com.eluo.EluoSpringBootApplication       : Starting EluoSpringBootApplication on DESKTOP-84J9D0E with PID 23896 (C:\dev\eclipse\workspace_2018-12\eluo-spring-boot\target\classes started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-14 13:32:12.004 DEBUG 23896 --- [main] com.eluo.EluoSpringBootApplication       : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-14 13:32:12.005  INFO 23896 --- [main] com.eluo.EluoSpringBootApplication       : The following profiles are active: local
+2019-05-14 13:32:13.559  INFO 23896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-14 13:32:13.747  INFO 23896 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162ms. Found 1 repository interfaces.
+2019-05-14 13:32:14.428  INFO 23896 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7644e4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-14 13:32:14.994  INFO 23896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-14 13:32:15.039  INFO 23896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-14 13:32:15.041  INFO 23896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-14 13:32:15.289  INFO 23896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-14 13:32:15.290  INFO 23896 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3193 ms
+2019-05-14 13:32:15.614  INFO 23896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-14 13:32:17.127  INFO 23896 --- [main] jdbc.connection                          : 1. Connection opened
+2019-05-14 13:32:17.129  INFO 23896 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2019-05-14 13:32:17.143  INFO 23896 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-14 13:32:17.253  INFO 23896 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-14 13:32:17.300  INFO 23896 --- [HikariPool-1 connection adder] jdbc.connection                          : 2. Connection opened
+2019-05-14 13:32:17.351  INFO 23896 --- [HikariPool-1 connection adder] jdbc.connection                          : 3. Connection opened
+2019-05-14 13:32:17.397  INFO 23896 --- [HikariPool-1 connection adder] jdbc.connection                          : 4. Connection opened
+2019-05-14 13:32:17.446  INFO 23896 --- [HikariPool-1 connection adder] jdbc.connection                          : 5. Connection opened
+2019-05-14 13:32:17.491  INFO 23896 --- [HikariPool-1 connection adder] jdbc.connection                          : 6. Connection opened
+2019-05-14 13:32:17.529  INFO 23896 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-14 13:32:17.534  INFO 23896 --- [HikariPool-1 connection adder] jdbc.connection                          : 7. Connection opened
+2019-05-14 13:32:17.534  INFO 23896 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-14 13:32:17.566  INFO 23896 --- [HikariPool-1 connection adder] jdbc.connection                          : 8. Connection opened
+2019-05-14 13:32:17.618  INFO 23896 --- [HikariPool-1 connection adder] jdbc.connection                          : 9. Connection opened
+2019-05-14 13:32:17.659  INFO 23896 --- [HikariPool-1 connection adder] jdbc.connection                          : 10. Connection opened
+2019-05-14 13:32:17.880  INFO 23896 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-14 13:32:18.169  INFO 23896 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 13:32:18.273  INFO 23896 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-05-14 13:32:19.283  INFO 23896 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-14 13:32:20.259  INFO 23896 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-14 13:32:20.324  WARN 23896 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-14 13:32:20.515  INFO 23896 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-14 13:32:20.905  INFO 23896 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@790654d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@14b5752f, org.springframework.security.web.header.HeaderWriterFilter@3095d401, org.springframework.security.web.csrf.CsrfFilter@49631cfb, org.springframework.security.web.authentication.logout.LogoutFilter@2fc7fa6e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@690df641, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@50ff7063, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5f935d49, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5c5f0edc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33a47707, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e24592e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3321291a, org.springframework.security.web.session.SessionManagementFilter@687a0e40, org.springframework.security.web.access.ExceptionTranslationFilter@67b5e613, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ce9771c]
+2019-05-14 13:32:21.018  INFO 23896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-14 13:32:21.022  INFO 23896 --- [main] com.eluo.EluoSpringBootApplication       : Started EluoSpringBootApplication in 10.131 seconds (JVM running for 13.872)
+2019-05-14 13:32:27.109  INFO 23896 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-05-14 13:32:27.123  INFO 23896 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-14 13:32:27.127  INFO 23896 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-14 13:32:27.135  INFO 23896 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-14 13:32:27.147  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 1. Connection closed
+2019-05-14 13:32:27.151  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 2. Connection closed
+2019-05-14 13:32:27.156  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 3. Connection closed
+2019-05-14 13:32:27.165  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 4. Connection closed
+2019-05-14 13:32:27.170  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 5. Connection closed
+2019-05-14 13:32:27.173  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 6. Connection closed
+2019-05-14 13:32:27.177  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 7. Connection closed
+2019-05-14 13:32:27.181  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 8. Connection closed
+2019-05-14 13:32:27.187  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 9. Connection closed
+2019-05-14 13:32:27.192  INFO 23896 --- [HikariPool-1 connection closer] jdbc.connection                          : 10. Connection closed
+2019-05-14 13:32:27.194  INFO 23896 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-14 13:42:10.292 DEBUG 27088 --- [background-preinit] .h.v.m.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+2019-05-14 13:42:10.480  INFO 27088 --- [main] com.eluo.EluoSpringBootApplication       : Starting EluoSpringBootApplication on DESKTOP-84J9D0E with PID 27088 (C:\dev\eclipse\workspace_2018-12\eluo-spring-boot\target\classes started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-14 13:42:10.481 DEBUG 27088 --- [main] com.eluo.EluoSpringBootApplication       : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-14 13:42:10.484  INFO 27088 --- [main] com.eluo.EluoSpringBootApplication       : The following profiles are active: local
+2019-05-14 13:42:11.484  INFO 27088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-14 13:42:11.584  INFO 27088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 1 repository interfaces.
+2019-05-14 13:42:12.087  INFO 27088 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5f2154c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-14 13:42:12.449  INFO 27088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-14 13:42:12.477  INFO 27088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-14 13:42:12.478  INFO 27088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-14 13:42:12.663  INFO 27088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-14 13:42:12.664  INFO 27088 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2069 ms
+2019-05-14 13:42:12.926  INFO 27088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-14 13:42:14.272  INFO 27088 --- [main] jdbc.connection                          : 1. Connection opened
+2019-05-14 13:42:14.274  INFO 27088 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2019-05-14 13:42:14.284  INFO 27088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-14 13:42:14.371  INFO 27088 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-14 13:42:14.419  INFO 27088 --- [HikariPool-1 connection adder] jdbc.connection                          : 2. Connection opened
+2019-05-14 13:42:14.455  INFO 27088 --- [HikariPool-1 connection adder] jdbc.connection                          : 3. Connection opened
+2019-05-14 13:42:14.489  INFO 27088 --- [HikariPool-1 connection adder] jdbc.connection                          : 4. Connection opened
+2019-05-14 13:42:14.513  INFO 27088 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-14 13:42:14.518  INFO 27088 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-14 13:42:14.520  INFO 27088 --- [HikariPool-1 connection adder] jdbc.connection                          : 5. Connection opened
+2019-05-14 13:42:14.552  INFO 27088 --- [HikariPool-1 connection adder] jdbc.connection                          : 6. Connection opened
+2019-05-14 13:42:14.586  INFO 27088 --- [HikariPool-1 connection adder] jdbc.connection                          : 7. Connection opened
+2019-05-14 13:42:14.620  INFO 27088 --- [HikariPool-1 connection adder] jdbc.connection                          : 8. Connection opened
+2019-05-14 13:42:14.651  INFO 27088 --- [HikariPool-1 connection adder] jdbc.connection                          : 9. Connection opened
+2019-05-14 13:42:14.688  INFO 27088 --- [HikariPool-1 connection adder] jdbc.connection                          : 10. Connection opened
+2019-05-14 13:42:14.787  INFO 27088 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-14 13:42:14.991  INFO 27088 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 13:42:15.066  INFO 27088 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-05-14 13:42:15.871  INFO 27088 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-14 13:42:16.665  INFO 27088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-14 13:42:16.734  WARN 27088 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-14 13:42:16.879  INFO 27088 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-14 13:42:17.175  INFO 27088 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62faf77, org.springframework.security.web.context.SecurityContextPersistenceFilter@30cafd13, org.springframework.security.web.header.HeaderWriterFilter@6cceb281, org.springframework.security.web.csrf.CsrfFilter@5ab7ac02, org.springframework.security.web.authentication.logout.LogoutFilter@12e007be, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7910f355, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@45571cfc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1f39269d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a5b7d7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d944fc0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5df92089, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e321d9d, org.springframework.security.web.session.SessionManagementFilter@619c3546, org.springframework.security.web.access.ExceptionTranslationFilter@7f8c48f3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@18e6b72b]
+2019-05-14 13:42:17.276  INFO 27088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-14 13:42:17.282  INFO 27088 --- [main] com.eluo.EluoSpringBootApplication       : Started EluoSpringBootApplication in 7.506 seconds (JVM running for 9.368)
+2019-05-14 13:42:22.189  INFO 27088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-14 13:42:22.193  INFO 27088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-14 13:42:22.210  INFO 27088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-05-14 13:42:32.083 DEBUG 27088 --- [http-nio-8080-exec-8] c.e.s.mapper.UserMapper.selectByUserId   : ==>  Preparing: SELECT * FROM tb_user WHERE userid = ? 
+2019-05-14 13:42:32.116 DEBUG 27088 --- [http-nio-8080-exec-8] c.e.s.mapper.UserMapper.selectByUserId   : ==> Parameters: lohanyeon01(String)
+2019-05-14 13:42:32.117 DEBUG 27088 --- [http-nio-8080-exec-8] jdbc.sqlonly                             :  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT * FROM tb_user WHERE userid = 'lohanyeon01' 
+
+2019-05-14 13:42:32.122 DEBUG 27088 --- [http-nio-8080-exec-8] jdbc.sqltiming                           :  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT * FROM tb_user WHERE userid = 'lohanyeon01' 
+ {executed in 4 msec}
+2019-05-14 13:42:32.142 DEBUG 27088 --- [http-nio-8080-exec-8] c.e.s.mapper.UserMapper.selectByUserId   : <==      Total: 1
+2019-05-14 13:42:32.278  INFO 27088 --- [http-nio-8080-exec-10] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:32.279  INFO 27088 --- [http-nio-8080-exec-10] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:32.280  INFO 27088 --- [http-nio-8080-exec-10] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:32.283  INFO 27088 --- [http-nio-8080-exec-10] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:32.284  INFO 27088 --- [http-nio-8080-exec-10] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:32.284 DEBUG 27088 --- [http-nio-8080-exec-10] com.eluo.controller.HomeController       : called debug /home/mypage
+2019-05-14 13:42:37.771  INFO 27088 --- [http-nio-8080-exec-4] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:42:37.773  INFO 27088 --- [http-nio-8080-exec-4] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:42:37.774  INFO 27088 --- [http-nio-8080-exec-4] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:42:37.775  INFO 27088 --- [http-nio-8080-exec-4] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:42:37.775  INFO 27088 --- [http-nio-8080-exec-4] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:42:37.776 DEBUG 27088 --- [http-nio-8080-exec-4] com.eluo.controller.HomeController       : called debug /home/hello
+2019-05-14 13:42:39.444  INFO 27088 --- [http-nio-8080-exec-6] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:39.445  INFO 27088 --- [http-nio-8080-exec-6] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:39.446  INFO 27088 --- [http-nio-8080-exec-6] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:39.447  INFO 27088 --- [http-nio-8080-exec-6] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:39.447  INFO 27088 --- [http-nio-8080-exec-6] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:42:39.447 DEBUG 27088 --- [http-nio-8080-exec-6] com.eluo.controller.HomeController       : called debug /home/mypage
+2019-05-14 13:46:08.559  INFO 22100 --- [main] com.eluo.EluoSpringBootApplicationTests  : Starting EluoSpringBootApplicationTests on DESKTOP-84J9D0E with PID 22100 (started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-14 13:46:08.562 DEBUG 22100 --- [main] com.eluo.EluoSpringBootApplicationTests  : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-14 13:46:08.563  INFO 22100 --- [main] com.eluo.EluoSpringBootApplicationTests  : The following profiles are active: local
+2019-05-14 13:46:11.717  INFO 22100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-14 13:46:12.074  INFO 22100 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 320ms. Found 1 repository interfaces.
+2019-05-14 13:46:13.790  INFO 22100 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a9cf184c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-14 13:46:15.180  INFO 22100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-14 13:46:19.376  INFO 22100 --- [main] jdbc.connection                          : 1. Connection opened
+2019-05-14 13:46:19.378  INFO 22100 --- [main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2019-05-14 13:46:19.401  INFO 22100 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-14 13:46:19.570  INFO 22100 --- [HikariPool-1 connection adder] jdbc.connection                          : 2. Connection opened
+2019-05-14 13:46:19.631  INFO 22100 --- [HikariPool-1 connection adder] jdbc.connection                          : 3. Connection opened
+2019-05-14 13:46:19.680  INFO 22100 --- [HikariPool-1 connection adder] jdbc.connection                          : 4. Connection opened
+2019-05-14 13:46:19.719  INFO 22100 --- [HikariPool-1 connection adder] jdbc.connection                          : 5. Connection opened
+2019-05-14 13:46:19.814  INFO 22100 --- [HikariPool-1 connection adder] jdbc.connection                          : 6. Connection opened
+2019-05-14 13:46:19.837  INFO 22100 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-14 13:46:19.857  INFO 22100 --- [HikariPool-1 connection adder] jdbc.connection                          : 7. Connection opened
+2019-05-14 13:46:19.896  INFO 22100 --- [HikariPool-1 connection adder] jdbc.connection                          : 8. Connection opened
+2019-05-14 13:46:19.937  INFO 22100 --- [HikariPool-1 connection adder] jdbc.connection                          : 9. Connection opened
+2019-05-14 13:46:19.979  INFO 22100 --- [HikariPool-1 connection adder] jdbc.connection                          : 10. Connection opened
+2019-05-14 13:46:20.221  INFO 22100 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-14 13:46:20.225  INFO 22100 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-14 13:46:20.880  INFO 22100 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-14 13:46:22.068  INFO 22100 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-14 13:46:22.272  INFO 22100 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-05-14 13:46:23.958  INFO 22100 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-14 13:46:28.942  INFO 22100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-14 13:46:29.241  WARN 22100 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-14 13:46:30.051  INFO 22100 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-14 13:46:32.937  INFO 22100 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d31f14, org.springframework.security.web.context.SecurityContextPersistenceFilter@16fc5622, org.springframework.security.web.header.HeaderWriterFilter@19a7906c, org.springframework.security.web.csrf.CsrfFilter@40c28b0d, org.springframework.security.web.authentication.logout.LogoutFilter@714bffd5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@338a4c61, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4c41a177, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@404009df, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58021c3c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6906be0f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52d63b7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75e4fe3c, org.springframework.security.web.session.SessionManagementFilter@3e4f2300, org.springframework.security.web.access.ExceptionTranslationFilter@36665c11, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f1fbc9f]
+2019-05-14 13:46:33.411  INFO 22100 --- [main] com.eluo.EluoSpringBootApplicationTests  : Started EluoSpringBootApplicationTests in 26.256 seconds (JVM running for 28.724)
+2019-05-14 13:46:33.692  INFO 22100 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eluo.HomeControllerTest], using SpringBootContextLoader
+2019-05-14 13:46:33.696  INFO 22100 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eluo.HomeControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-05-14 13:46:33.697  INFO 22100 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eluo.HomeControllerTest]: HomeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-05-14 13:46:33.765  INFO 22100 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eluo.EluoSpringBootApplication for test class com.eluo.HomeControllerTest
+2019-05-14 13:46:33.766  INFO 22100 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2019-05-14 13:46:33.770  INFO 22100 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2ae2fa13, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66e12c3b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@44485db, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1f6f0fe2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@22604c7e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4d8f2cfd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6d4502ca, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@ab2009f, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@2a11ae0b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e4d8770, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5b5b9521, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@41f7c02d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@66314fee, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@14b5325f]
+2019-05-14 13:46:33.956  INFO 22100 --- [main] com.eluo.HomeControllerTest              : Starting HomeControllerTest on DESKTOP-84J9D0E with PID 22100 (started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-14 13:46:33.957 DEBUG 22100 --- [main] com.eluo.HomeControllerTest              : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-14 13:46:33.959  INFO 22100 --- [main] com.eluo.HomeControllerTest              : The following profiles are active: local
+2019-05-14 13:46:36.292  INFO 22100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-14 13:46:36.852  INFO 22100 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-05-14 13:46:37.306  INFO 22100 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a6f49638-1480-4e4d-ad44-9835580def26
+
+2019-05-14 13:46:38.649  INFO 22100 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22002459, org.springframework.security.web.context.SecurityContextPersistenceFilter@32e65852, org.springframework.security.web.header.HeaderWriterFilter@451af781, org.springframework.security.web.csrf.CsrfFilter@521c67f0, org.springframework.security.web.authentication.logout.LogoutFilter@517bdce0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@13137835, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@51df2a41, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@29bd056a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4f82248f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64d93096, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76ed7573, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21e702b8, org.springframework.security.web.session.SessionManagementFilter@3749c2b, org.springframework.security.web.access.ExceptionTranslationFilter@7d156f8f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@672d8370]
+2019-05-14 13:46:38.832  INFO 22100 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-05-14 13:46:38.832  INFO 22100 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-05-14 13:46:38.925  INFO 22100 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 92 ms
+2019-05-14 13:46:39.278  INFO 22100 --- [main] com.eluo.HomeControllerTest              : Started HomeControllerTest in 5.502 seconds (JVM running for 34.591)
+2019-05-14 13:46:39.629  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:46:39.629  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:46:39.638  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:46:39.640  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:46:39.641  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/mypage
+2019-05-14 13:46:39.642 DEBUG 22100 --- [main] com.eluo.controller.HomeController       : called debug /home/mypage
+2019-05-14 13:46:41.124  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:46:41.128  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:46:41.133  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:46:41.136  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:46:41.161  INFO 22100 --- [main] com.eluo.controller.HomeController       : called /home/hello
+2019-05-14 13:46:41.162 DEBUG 22100 --- [main] com.eluo.controller.HomeController       : called debug /home/hello
+2019-05-14 13:46:41.192  INFO 22100 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.eluo.UserServiceTest], using SpringBootContextLoader
+2019-05-14 13:46:41.195  INFO 22100 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.eluo.UserServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-05-14 13:46:41.196  INFO 22100 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.eluo.UserServiceTest]: UserServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-05-14 13:46:41.233  INFO 22100 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.eluo.EluoSpringBootApplication for test class com.eluo.UserServiceTest
+2019-05-14 13:46:41.246  INFO 22100 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2019-05-14 13:46:41.250  INFO 22100 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e2718b3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@440461ef, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5977bdea, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49c13ecd, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f4545c6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@482942d8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2cd52eda, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@6c225adb, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@69cc49ec, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6b71e98f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ed7b9c5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@105dc246, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b556a88, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7f8cd5fc]
+2019-05-14 13:46:41.321  INFO 22100 --- [main] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@4713b631 testClass = UserServiceTest, testInstance = com.eluo.UserServiceTest@7a0d2c80, testMethod = selectListUser@UserServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6d4d0a14 testClass = UserServiceTest, locations = '{}', classes = '{class com.eluo.EluoSpringBootApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3578436e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@10a035a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5d11346a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@16022d9d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@43fd77d8]; rollback [true]
+2019-05-14 13:46:41.417 DEBUG 22100 --- [main] c.e.s.mapper.UserMapper.selectListUser   : ==>  Preparing: SELECT idx, userid, passwd, usernm, tel, email, reg_date FROM tb_user 
+2019-05-14 13:46:41.528 DEBUG 22100 --- [main] c.e.s.mapper.UserMapper.selectListUser   : ==> Parameters: 
+2019-05-14 13:46:41.547 DEBUG 22100 --- [main] jdbc.sqlonly                             :  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT idx, userid, passwd, usernm, tel, email, reg_date FROM tb_user 
+
+2019-05-14 13:46:41.558 DEBUG 22100 --- [main] jdbc.sqltiming                           :  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT idx, userid, passwd, usernm, tel, email, reg_date FROM tb_user 
+ {executed in 11 msec}
+2019-05-14 13:46:41.616 DEBUG 22100 --- [main] c.e.s.mapper.UserMapper.selectListUser   : <==      Total: 1
+2019-05-14 13:46:41.642  INFO 22100 --- [main] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@4713b631 testClass = UserServiceTest, testInstance = com.eluo.UserServiceTest@7a0d2c80, testMethod = selectListUser@UserServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6d4d0a14 testClass = UserServiceTest, locations = '{}', classes = '{class com.eluo.EluoSpringBootApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3578436e, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@10a035a0, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5d11346a, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@16022d9d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+2019-05-14 13:46:46.592  INFO 22100 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-14 13:46:46.593  INFO 22100 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-14 13:46:46.595  INFO 22100 --- [Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-14 13:46:46.602  INFO 22100 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-14 13:46:46.616  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 1. Connection closed
+2019-05-14 13:46:46.619  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 2. Connection closed
+2019-05-14 13:46:46.622  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 3. Connection closed
+2019-05-14 13:46:46.625  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 4. Connection closed
+2019-05-14 13:46:46.627  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 5. Connection closed
+2019-05-14 13:46:46.629  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 6. Connection closed
+2019-05-14 13:46:46.631  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 7. Connection closed
+2019-05-14 13:46:46.633  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 8. Connection closed
+2019-05-14 13:46:46.636  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 9. Connection closed
+2019-05-14 13:46:46.640  INFO 22100 --- [HikariPool-1 connection closer] jdbc.connection                          : 10. Connection closed
+2019-05-14 13:46:46.641  INFO 22100 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-14 13:52:40.310  INFO 27088 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-05-14 13:52:40.317  INFO 27088 --- [RMI TCP Connection(19)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-14 13:52:40.319  INFO 27088 --- [RMI TCP Connection(19)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-14 13:52:40.323  INFO 27088 --- [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-14 13:52:40.328  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 1. Connection closed
+2019-05-14 13:52:40.332  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 2. Connection closed
+2019-05-14 13:52:40.337  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 3. Connection closed
+2019-05-14 13:52:40.343  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 4. Connection closed
+2019-05-14 13:52:40.346  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 5. Connection closed
+2019-05-14 13:52:40.350  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 6. Connection closed
+2019-05-14 13:52:40.353  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 7. Connection closed
+2019-05-14 13:52:40.356  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 8. Connection closed
+2019-05-14 13:52:40.360  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 9. Connection closed
+2019-05-14 13:52:40.362  INFO 27088 --- [HikariPool-1 connection closer] jdbc.connection                          : 10. Connection closed
+2019-05-14 13:52:40.363  INFO 27088 --- [RMI TCP Connection(19)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <appender name="ROLLIN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>./logs/eluo.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>./logs/eluo.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>10MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>DEBUG</level>
+        </filter>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.springframework.web" level="INFO"/>
+    <logger name="org.thymeleaf" level="INFO"/>
+    <logger name="org.hibernate.SQL" level="INFO"/>
+    <logger name="org.quartz.core" level="INFO"/>
+    <logger name="org.h2.server.web" level="INFO"/>
+    
+    <logger name="com.eluo" level="DEBUG"/>
+    <!-- <logger name="sql" level="DEBUG"/> -->
+    
+    <logger name="org.apache.commons.dbcp2" level="DEBUG" />
+    <logger name="java.sql" level="ERROR" />
+    
+    <logger name="jdbc.sqlonly" level="DEBUG" />
+    <logger name="jdbc.sqltiming" level="DEBUG" />
+    <logger name="jdbc.audit" level="ERROR" />
+    <logger name="jdbc.resultset" level="ERROR" />
+
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n</pattern>
+        </encoder>
+    </appender>
+    
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level %logger[%method:%line] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="ROLLIN"/>
+        <appender-ref ref="STDOUT"/>
+        <!-- <appender-ref ref="console" /> -->
+    </root>
+
+</configuration>

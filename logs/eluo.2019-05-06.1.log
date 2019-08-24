@@ -1,0 +1,1275 @@
+2019-05-06 15:30:16 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-06 15:30:16 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 15:30:16 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 1. Connection closed
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 2. Connection closed
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 3. Connection closed
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 4. Connection closed
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 5. Connection closed
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 6. Connection closed
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 7. Connection closed
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 8. Connection closed
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 9. Connection closed
+2019-05-06 15:30:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 10. Connection closed
+2019-05-06 15:30:16 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-05-06 15:30:24 [main] INFO  com.eluo.EluoSpringBootApplication - Starting EluoSpringBootApplication on DESKTOP-84J9D0E with PID 16288 (C:\dev\eclipse\workspace_2018-12\eluo-spring-boot\target\classes started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-06 15:30:24 [main] INFO  com.eluo.EluoSpringBootApplication - The following profiles are active: local
+2019-05-06 15:30:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-06 15:30:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100ms. Found 1 repository interfaces.
+2019-05-06 15:30:26 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7dfd8dcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-06 15:30:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-05-06 15:30:26 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-06 15:30:26 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-06 15:30:26 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-06 15:30:26 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2609 ms
+2019-05-06 15:30:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-06 15:30:28 [main] INFO  jdbc.connection - 1. Connection opened
+2019-05-06 15:30:28 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2019-05-06 15:30:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-06 15:30:28 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-06 15:30:28 [HikariPool-1 connection adder] INFO  jdbc.connection - 2. Connection opened
+2019-05-06 15:30:29 [HikariPool-1 connection adder] INFO  jdbc.connection - 3. Connection opened
+2019-05-06 15:30:29 [HikariPool-1 connection adder] INFO  jdbc.connection - 4. Connection opened
+2019-05-06 15:30:29 [HikariPool-1 connection adder] INFO  jdbc.connection - 5. Connection opened
+2019-05-06 15:30:29 [HikariPool-1 connection adder] INFO  jdbc.connection - 6. Connection opened
+2019-05-06 15:30:29 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-06 15:30:29 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-05-06 15:30:29 [HikariPool-1 connection adder] INFO  jdbc.connection - 7. Connection opened
+2019-05-06 15:30:29 [HikariPool-1 connection adder] INFO  jdbc.connection - 8. Connection opened
+2019-05-06 15:30:29 [HikariPool-1 connection adder] INFO  jdbc.connection - 9. Connection opened
+2019-05-06 15:30:29 [HikariPool-1 connection adder] INFO  jdbc.connection - 10. Connection opened
+2019-05-06 15:30:29 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-06 15:30:29 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-06 15:30:29 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-05-06 15:30:30 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 15:30:31 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-06 15:30:31 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-06 15:30:32 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-05-06 15:30:32 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2712e8f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@699e0bf0, org.springframework.security.web.header.HeaderWriterFilter@1669931a, org.springframework.security.web.csrf.CsrfFilter@30cafd13, org.springframework.security.web.authentication.logout.LogoutFilter@7fd751de, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@47eaf55c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2d24cdd9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5896cb9c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@774f2992, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36d697ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6182ffef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44b9c7c4, org.springframework.security.web.session.SessionManagementFilter@12e007be, org.springframework.security.web.access.ExceptionTranslationFilter@faec277, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@754de353]
+2019-05-06 15:30:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-06 15:30:32 [main] INFO  com.eluo.EluoSpringBootApplication - Started EluoSpringBootApplication in 9.089 seconds (JVM running for 11.483)
+2019-05-06 15:31:16 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-05-06 15:31:16 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-06 15:31:16 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 15:31:16 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 1. Connection closed
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 2. Connection closed
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 3. Connection closed
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 4. Connection closed
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 5. Connection closed
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 6. Connection closed
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 7. Connection closed
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 8. Connection closed
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 9. Connection closed
+2019-05-06 15:31:16 [HikariPool-1 connection closer] INFO  jdbc.connection - 10. Connection closed
+2019-05-06 15:31:16 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-05-06 15:31:23 [main] INFO  com.eluo.EluoSpringBootApplication - Starting EluoSpringBootApplication on DESKTOP-84J9D0E with PID 8284 (C:\dev\eclipse\workspace_2018-12\eluo-spring-boot\target\classes started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-06 15:31:24 [main] INFO  com.eluo.EluoSpringBootApplication - The following profiles are active: local
+2019-05-06 15:31:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-06 15:31:25 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108ms. Found 1 repository interfaces.
+2019-05-06 15:31:26 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5f2154c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-06 15:31:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-05-06 15:31:26 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-06 15:31:26 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-06 15:31:27 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-06 15:31:27 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2981 ms
+2019-05-06 15:31:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-06 15:31:27 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactoryBuilder' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactoryBuilder' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, jdbc:log4jdbc:mysql://127.0.0.1/eluo?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf8
+2019-05-06 15:31:27 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2019-05-06 15:31:27 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-06 15:31:27 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactory' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactoryBuilder' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactoryBuilder' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, jdbc:log4jdbc:mysql://127.0.0.1/eluo?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf8
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at com.eluo.EluoSpringBootApplication.main(EluoSpringBootApplication.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactoryBuilder' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unsatisfied dependency expressed through method 'entityManagerFactoryBuilder' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, jdbc:log4jdbc:mysql://127.0.0.1/eluo?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf8
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 17 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaVendorAdapter' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, jdbc:log4jdbc:mysql://127.0.0.1/eluo?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf8
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 31 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.orm.jpa.JpaVendorAdapter]: Factory method 'jpaVendorAdapter' threw exception; nested exception is java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, jdbc:log4jdbc:mysql://127.0.0.1/eluo?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf8
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	... 45 common frames omitted
+Caused by: java.lang.RuntimeException: Driver com.mysql.cj.jdbc.Driver claims to not accept jdbcUrl, jdbc:log4jdbc:mysql://127.0.0.1/eluo?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf8
+	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:108)
+	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:336)
+	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:109)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:108)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:113)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$7df81730.CGLIB$jpaVendorAdapter$5(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$7df81730$$FastClassBySpringCGLIB$$2ae96d91.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$7df81730.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 46 common frames omitted
+2019-05-06 15:31:52 [main] INFO  com.eluo.EluoSpringBootApplication - Starting EluoSpringBootApplication on DESKTOP-84J9D0E with PID 14368 (C:\dev\eclipse\workspace_2018-12\eluo-spring-boot\target\classes started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-06 15:31:52 [main] INFO  com.eluo.EluoSpringBootApplication - The following profiles are active: local
+2019-05-06 15:31:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-06 15:31:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 158ms. Found 1 repository interfaces.
+2019-05-06 15:31:56 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5d1ec701] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-06 15:31:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-05-06 15:31:56 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-06 15:31:56 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-06 15:31:57 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-06 15:31:57 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4205 ms
+2019-05-06 15:31:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-06 15:31:59 [main] INFO  jdbc.connection - 1. Connection opened
+2019-05-06 15:31:59 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2019-05-06 15:31:59 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-06 15:31:59 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-06 15:31:59 [HikariPool-1 connection adder] INFO  jdbc.connection - 2. Connection opened
+2019-05-06 15:31:59 [HikariPool-1 connection adder] INFO  jdbc.connection - 3. Connection opened
+2019-05-06 15:31:59 [HikariPool-1 connection adder] INFO  jdbc.connection - 4. Connection opened
+2019-05-06 15:31:59 [HikariPool-1 connection adder] INFO  jdbc.connection - 5. Connection opened
+2019-05-06 15:31:59 [HikariPool-1 connection adder] INFO  jdbc.connection - 6. Connection opened
+2019-05-06 15:31:59 [HikariPool-1 connection adder] INFO  jdbc.connection - 7. Connection opened
+2019-05-06 15:31:59 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-06 15:31:59 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-05-06 15:31:59 [HikariPool-1 connection adder] INFO  jdbc.connection - 8. Connection opened
+2019-05-06 15:31:59 [HikariPool-1 connection adder] INFO  jdbc.connection - 9. Connection opened
+2019-05-06 15:31:59 [HikariPool-1 connection adder] INFO  jdbc.connection - 10. Connection opened
+2019-05-06 15:31:59 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-06 15:32:00 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-06 15:32:00 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-05-06 15:32:01 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 15:32:02 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-06 15:32:02 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-06 15:32:02 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-05-06 15:32:02 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13cc31ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@273dec10, org.springframework.security.web.header.HeaderWriterFilter@26ffd2c0, org.springframework.security.web.csrf.CsrfFilter@14b5752f, org.springframework.security.web.authentication.logout.LogoutFilter@45571cfc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30d5e37c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7548e1fb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5bb7a59, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7910f355, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cca31fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6736f40f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bfa5eb9, org.springframework.security.web.session.SessionManagementFilter@2fc7fa6e, org.springframework.security.web.access.ExceptionTranslationFilter@67a8bcbb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3dc46f24]
+2019-05-06 15:32:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-06 15:32:02 [main] INFO  com.eluo.EluoSpringBootApplication - Started EluoSpringBootApplication in 11.359 seconds (JVM running for 14.849)
+2019-05-06 15:32:07 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-06 15:32:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-06 15:32:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-05-06 15:32:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:50 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:50 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:50 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:50 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:50 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:51 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:52 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:53 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:54 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:55 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:56 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:57 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:58 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:32:59 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:00 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:01 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:02 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:03 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:04 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:33:05 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:02 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-05-06 15:34:02 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-06 15:34:02 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 15:34:02 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 1. Connection closed
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 2. Connection closed
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 3. Connection closed
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 4. Connection closed
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 5. Connection closed
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 6. Connection closed
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 7. Connection closed
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 8. Connection closed
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 9. Connection closed
+2019-05-06 15:34:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 10. Connection closed
+2019-05-06 15:34:02 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-05-06 15:34:10 [main] INFO  com.eluo.EluoSpringBootApplication - Starting EluoSpringBootApplication on DESKTOP-84J9D0E with PID 7324 (C:\dev\eclipse\workspace_2018-12\eluo-spring-boot\target\classes started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-06 15:34:10 [main] INFO  com.eluo.EluoSpringBootApplication - The following profiles are active: local
+2019-05-06 15:34:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-06 15:34:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133ms. Found 1 repository interfaces.
+2019-05-06 15:34:12 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5f2154c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-06 15:34:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-05-06 15:34:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-06 15:34:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-06 15:34:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-06 15:34:12 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2639 ms
+2019-05-06 15:34:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-06 15:34:14 [main] INFO  jdbc.connection - 1. Connection opened
+2019-05-06 15:34:14 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2019-05-06 15:34:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-06 15:34:14 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-06 15:34:14 [HikariPool-1 connection adder] INFO  jdbc.connection - 2. Connection opened
+2019-05-06 15:34:14 [HikariPool-1 connection adder] INFO  jdbc.connection - 3. Connection opened
+2019-05-06 15:34:14 [HikariPool-1 connection adder] INFO  jdbc.connection - 4. Connection opened
+2019-05-06 15:34:14 [HikariPool-1 connection adder] INFO  jdbc.connection - 5. Connection opened
+2019-05-06 15:34:14 [HikariPool-1 connection adder] INFO  jdbc.connection - 6. Connection opened
+2019-05-06 15:34:15 [HikariPool-1 connection adder] INFO  jdbc.connection - 7. Connection opened
+2019-05-06 15:34:15 [HikariPool-1 connection adder] INFO  jdbc.connection - 8. Connection opened
+2019-05-06 15:34:15 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-06 15:34:15 [HikariPool-1 connection adder] INFO  jdbc.connection - 9. Connection opened
+2019-05-06 15:34:15 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-05-06 15:34:15 [HikariPool-1 connection adder] INFO  jdbc.connection - 10. Connection opened
+2019-05-06 15:34:15 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-06 15:34:15 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-06 15:34:15 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-05-06 15:34:16 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 15:34:17 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-06 15:34:17 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-06 15:34:17 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-05-06 15:34:18 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@754de353, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c3c453b, org.springframework.security.web.header.HeaderWriterFilter@29090809, org.springframework.security.web.csrf.CsrfFilter@6d7b2319, org.springframework.security.web.authentication.logout.LogoutFilter@2499b971, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@12209826, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1669931a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@ee2ae9a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4bfa5eb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15ac02d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@faec277, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58b97c15, org.springframework.security.web.session.SessionManagementFilter@1d226f27, org.springframework.security.web.access.ExceptionTranslationFilter@7cca31fc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30d5e37c]
+2019-05-06 15:34:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-06 15:34:18 [main] INFO  com.eluo.EluoSpringBootApplication - Started EluoSpringBootApplication in 8.98 seconds (JVM running for 11.33)
+2019-05-06 15:34:20 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-06 15:34:20 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-06 15:34:20 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-05-06 15:34:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:27 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:28 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:29 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:30 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:31 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:32 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:33 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:34 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:35 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:34:36 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:00 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:01 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:02 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:03 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:04 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:05 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:05 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:05 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:05 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:05 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:07 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:09 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:09 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:09 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:09 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:09 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:10 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:11 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:12 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:13 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:14 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:14 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:14 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:14 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:14 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:17 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:17 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:17 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:17 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:17 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:18 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:19 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:20 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:35:21 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:37:37 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-05-06 15:37:37 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-06 15:37:37 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 15:37:37 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 1. Connection closed
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 2. Connection closed
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 3. Connection closed
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 4. Connection closed
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 5. Connection closed
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 6. Connection closed
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 7. Connection closed
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 8. Connection closed
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 9. Connection closed
+2019-05-06 15:37:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 10. Connection closed
+2019-05-06 15:37:37 [RMI TCP Connection(11)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-05-06 15:37:44 [main] INFO  com.eluo.EluoSpringBootApplication - Starting EluoSpringBootApplication on DESKTOP-84J9D0E with PID 23864 (C:\dev\eclipse\workspace_2018-12\eluo-spring-boot\target\classes started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-06 15:37:44 [main] INFO  com.eluo.EluoSpringBootApplication - The following profiles are active: local

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.eluo.service.mapper.UserMapper">
+ 
+    <select id="selectListUser" resultType="com.eluo.model.User">
+        SELECT 
+        	idx, userid, passwd, usernm, tel, email, reg_date
+        FROM
+        	tb_user 
+    </select>
+    
+    <select id="selectByUserId" parameterType="java.lang.String" resultType="com.eluo.model.User">
+    	SELECT
+    		*
+    	FROM
+    		tb_user
+    	WHERE 
+    		userid = #{userid}
+    </select>
+    
+    <insert id="insertUser" parameterType="com.eluo.model.User">
+    	INSERT INTO tb_user (
+    		userid, passwd, usernm, tel, email, reg_date
+    	) VALUES (
+    		#{userid}, #{passwd}, #{usernm}, #{tel}, #{email}, now()
+    	)
+    </insert>
+ 
+</mapper>

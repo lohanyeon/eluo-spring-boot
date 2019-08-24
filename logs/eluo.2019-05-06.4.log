@@ -1,0 +1,93 @@
+2019-05-06 15:38:14 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:14 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:14 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:14 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:14 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:14 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-7] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-10] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-3] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:15 [http-nio-8080-exec-6] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-9] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:16 [http-nio-8080-exec-2] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:38:42 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-05-06 15:38:42 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-06 15:38:42 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 15:38:42 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 1. Connection closed
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 2. Connection closed
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 3. Connection closed
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 4. Connection closed
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 5. Connection closed
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 6. Connection closed
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 7. Connection closed
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 8. Connection closed
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 9. Connection closed
+2019-05-06 15:38:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 10. Connection closed
+2019-05-06 15:38:42 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-05-06 15:38:49 [main] INFO  com.eluo.EluoSpringBootApplication - Starting EluoSpringBootApplication on DESKTOP-84J9D0E with PID 13564 (C:\dev\eclipse\workspace_2018-12\eluo-spring-boot\target\classes started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-06 15:38:49 [main] DEBUG com.eluo.EluoSpringBootApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-05-06 15:38:49 [main] INFO  com.eluo.EluoSpringBootApplication - The following profiles are active: local
+2019-05-06 15:38:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-06 15:38:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 140ms. Found 1 repository interfaces.
+2019-05-06 15:38:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ab67533a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-06 15:38:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-05-06 15:38:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-06 15:38:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-06 15:38:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-06 15:38:52 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2762 ms
+2019-05-06 15:38:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-06 15:38:54 [main] INFO  jdbc.connection - 1. Connection opened
+2019-05-06 15:38:54 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2019-05-06 15:38:54 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-06 15:38:54 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-06 15:38:54 [HikariPool-1 connection adder] INFO  jdbc.connection - 2. Connection opened
+2019-05-06 15:38:54 [HikariPool-1 connection adder] INFO  jdbc.connection - 3. Connection opened
+2019-05-06 15:38:54 [HikariPool-1 connection adder] INFO  jdbc.connection - 4. Connection opened
+2019-05-06 15:38:54 [HikariPool-1 connection adder] INFO  jdbc.connection - 5. Connection opened
+2019-05-06 15:38:54 [HikariPool-1 connection adder] INFO  jdbc.connection - 6. Connection opened
+2019-05-06 15:38:54 [HikariPool-1 connection adder] INFO  jdbc.connection - 7. Connection opened
+2019-05-06 15:38:54 [HikariPool-1 connection adder] INFO  jdbc.connection - 8. Connection opened
+2019-05-06 15:38:54 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-06 15:38:54 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-05-06 15:38:54 [HikariPool-1 connection adder] INFO  jdbc.connection - 9. Connection opened
+2019-05-06 15:38:55 [HikariPool-1 connection adder] INFO  jdbc.connection - 10. Connection opened
+2019-05-06 15:38:55 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-06 15:38:55 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-06 15:38:55 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true

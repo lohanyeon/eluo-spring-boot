@@ -1,0 +1,77 @@
+2019-05-06 15:28:38 [main] INFO  com.eluo.EluoSpringBootApplication - Starting EluoSpringBootApplication on DESKTOP-84J9D0E with PID 8272 (C:\dev\eclipse\workspace_2018-12\eluo-spring-boot\target\classes started by ELUO in C:\dev\eclipse\workspace_2018-12\eluo-spring-boot)
+2019-05-06 15:28:38 [main] INFO  com.eluo.EluoSpringBootApplication - The following profiles are active: local
+2019-05-06 15:28:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-06 15:28:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102ms. Found 1 repository interfaces.
+2019-05-06 15:28:40 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d3ae6e27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-06 15:28:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-05-06 15:28:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-06 15:28:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-06 15:28:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-06 15:28:41 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2619 ms
+2019-05-06 15:28:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-05-06 15:28:43 [main] INFO  jdbc.connection - 1. Connection opened
+2019-05-06 15:28:43 [main] INFO  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Driver does not support get/set network timeout for connections. (net.sf.log4jdbc.ConnectionSpy.getNetworkTimeout()I)
+2019-05-06 15:28:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-05-06 15:28:43 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-06 15:28:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 2. Connection opened
+2019-05-06 15:28:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 3. Connection opened
+2019-05-06 15:28:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 4. Connection opened
+2019-05-06 15:28:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 5. Connection opened
+2019-05-06 15:28:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 6. Connection opened
+2019-05-06 15:28:43 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-06 15:28:43 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2019-05-06 15:28:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 7. Connection opened
+2019-05-06 15:28:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 8. Connection opened
+2019-05-06 15:28:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 9. Connection opened
+2019-05-06 15:28:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 10. Connection opened
+2019-05-06 15:28:43 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-06 15:28:43 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-06 15:28:44 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2019-05-06 15:28:44 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 15:28:45 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-06 15:28:46 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-06 15:28:46 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-05-06 15:28:46 [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58b97c15, org.springframework.security.web.context.SecurityContextPersistenceFilter@15ac02d5, org.springframework.security.web.header.HeaderWriterFilter@1d226f27, org.springframework.security.web.csrf.CsrfFilter@1f45db49, org.springframework.security.web.authentication.logout.LogoutFilter@28831d69, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a5b7d7e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@12e007be, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@26994c6a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58186f9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34f23816, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1669931a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cd46491, org.springframework.security.web.session.SessionManagementFilter@7c3c453b, org.springframework.security.web.access.ExceptionTranslationFilter@29090809, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4597e6e3]
+2019-05-06 15:28:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-06 15:28:46 [main] INFO  com.eluo.EluoSpringBootApplication - Started EluoSpringBootApplication in 9.057 seconds (JVM running for 11.142)
+2019-05-06 15:28:50 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-06 15:28:50 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-06 15:28:50 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-05-06 15:28:50 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:50 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:50 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:50 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:50 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:28:59 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-5] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-8] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-1] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:00 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:29:01 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 15:30:16 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.

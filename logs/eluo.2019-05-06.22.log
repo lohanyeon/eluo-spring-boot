@@ -1,0 +1,15 @@
+2019-05-06 17:49:13 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-05-06 17:49:13 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-06 17:49:13 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-06 17:49:13 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 1. Connection closed
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 2. Connection closed
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 3. Connection closed
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 4. Connection closed
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 5. Connection closed
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 6. Connection closed
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 7. Connection closed
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 8. Connection closed
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 9. Connection closed
+2019-05-06 17:49:13 [HikariPool-1 connection closer] INFO  jdbc.connection - 10. Connection closed
+2019-05-06 17:49:13 [RMI TCP Connection(12)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

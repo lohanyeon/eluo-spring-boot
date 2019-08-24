@@ -1,0 +1,195 @@
+2019-05-06 15:41:39 [http-nio-8080-exec-4] DEBUG c.e.s.m.UserMapper.selectByUserId - ==>  Preparing: SELECT * FROM tb_user WHERE userid = ? 
+2019-05-06 15:41:39 [http-nio-8080-exec-4] DEBUG c.e.s.m.UserMapper.selectByUserId - ==> Parameters: admin(String)
+2019-05-06 15:41:39 [http-nio-8080-exec-4] DEBUG jdbc.sqlonly -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT * FROM tb_user WHERE userid = 'admin' 
+
+2019-05-06 15:41:39 [http-nio-8080-exec-4] DEBUG jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. SELECT * FROM tb_user WHERE userid = 'admin' 
+ {executed in 2 msec}
+2019-05-06 15:41:39 [http-nio-8080-exec-4] DEBUG c.e.s.m.UserMapper.selectByUserId - <==      Total: 0
+2019-05-06 16:10:02 [HikariPool-1 connection closer] INFO  jdbc.connection - 7. Connection closed
+2019-05-06 16:10:02 [HikariPool-1 connection adder] INFO  jdbc.connection - 11. Connection opened
+2019-05-06 16:10:14 [HikariPool-1 connection closer] INFO  jdbc.connection - 6. Connection closed
+2019-05-06 16:10:14 [HikariPool-1 connection adder] INFO  jdbc.connection - 12. Connection opened
+2019-05-06 16:10:18 [HikariPool-1 connection closer] INFO  jdbc.connection - 10. Connection closed
+2019-05-06 16:10:18 [HikariPool-1 connection adder] INFO  jdbc.connection - 13. Connection opened
+2019-05-06 16:10:20 [HikariPool-1 connection closer] INFO  jdbc.connection - 9. Connection closed
+2019-05-06 16:10:20 [HikariPool-1 connection adder] INFO  jdbc.connection - 14. Connection opened
+2019-05-06 16:10:20 [HikariPool-1 connection closer] INFO  jdbc.connection - 3. Connection closed
+2019-05-06 16:10:20 [HikariPool-1 connection adder] INFO  jdbc.connection - 15. Connection opened
+2019-05-06 16:10:22 [HikariPool-1 connection closer] INFO  jdbc.connection - 1. Connection closed
+2019-05-06 16:10:22 [HikariPool-1 connection adder] INFO  jdbc.connection - 16. Connection opened
+2019-05-06 16:10:24 [HikariPool-1 connection closer] INFO  jdbc.connection - 2. Connection closed
+2019-05-06 16:10:24 [HikariPool-1 connection adder] INFO  jdbc.connection - 17. Connection opened
+2019-05-06 16:10:28 [HikariPool-1 connection closer] INFO  jdbc.connection - 4. Connection closed
+2019-05-06 16:10:28 [HikariPool-1 connection adder] INFO  jdbc.connection - 18. Connection opened
+2019-05-06 16:10:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 8. Connection closed
+2019-05-06 16:10:37 [HikariPool-1 connection adder] INFO  jdbc.connection - 19. Connection opened
+2019-05-06 16:10:39 [HikariPool-1 connection closer] INFO  jdbc.connection - 5. Connection closed
+2019-05-06 16:10:39 [HikariPool-1 connection adder] INFO  jdbc.connection - 20. Connection opened
+2019-05-06 16:39:26 [HikariPool-1 connection closer] INFO  jdbc.connection - 11. Connection closed
+2019-05-06 16:39:26 [HikariPool-1 connection adder] INFO  jdbc.connection - 21. Connection opened
+2019-05-06 16:39:34 [HikariPool-1 connection closer] INFO  jdbc.connection - 12. Connection closed
+2019-05-06 16:39:34 [HikariPool-1 connection adder] INFO  jdbc.connection - 22. Connection opened
+2019-05-06 16:39:42 [HikariPool-1 connection closer] INFO  jdbc.connection - 13. Connection closed
+2019-05-06 16:39:42 [HikariPool-1 connection adder] INFO  jdbc.connection - 23. Connection opened
+2019-05-06 16:39:53 [HikariPool-1 connection closer] INFO  jdbc.connection - 15. Connection closed
+2019-05-06 16:39:53 [HikariPool-1 connection adder] INFO  jdbc.connection - 24. Connection opened
+2019-05-06 16:39:56 [HikariPool-1 connection closer] INFO  jdbc.connection - 17. Connection closed
+2019-05-06 16:39:56 [HikariPool-1 connection adder] INFO  jdbc.connection - 25. Connection opened
+2019-05-06 16:39:57 [HikariPool-1 connection closer] INFO  jdbc.connection - 16. Connection closed
+2019-05-06 16:39:58 [HikariPool-1 connection adder] INFO  jdbc.connection - 26. Connection opened
+2019-05-06 16:40:10 [HikariPool-1 connection closer] INFO  jdbc.connection - 18. Connection closed
+2019-05-06 16:40:10 [HikariPool-1 connection adder] INFO  jdbc.connection - 27. Connection opened
+2019-05-06 16:40:17 [HikariPool-1 connection closer] INFO  jdbc.connection - 14. Connection closed
+2019-05-06 16:40:17 [HikariPool-1 connection adder] INFO  jdbc.connection - 28. Connection opened
+2019-05-06 16:40:33 [HikariPool-1 connection closer] INFO  jdbc.connection - 20. Connection closed
+2019-05-06 16:40:34 [HikariPool-1 connection adder] INFO  jdbc.connection - 29. Connection opened
+2019-05-06 16:40:37 [HikariPool-1 connection closer] INFO  jdbc.connection - 19. Connection closed
+2019-05-06 16:40:37 [HikariPool-1 connection adder] INFO  jdbc.connection - 30. Connection opened
+2019-05-06 17:08:58 [HikariPool-1 connection closer] INFO  jdbc.connection - 21. Connection closed
+2019-05-06 17:08:58 [HikariPool-1 connection adder] INFO  jdbc.connection - 31. Connection opened
+2019-05-06 17:09:10 [HikariPool-1 connection closer] INFO  jdbc.connection - 23. Connection closed
+2019-05-06 17:09:10 [HikariPool-1 connection adder] INFO  jdbc.connection - 32. Connection opened
+2019-05-06 17:09:31 [HikariPool-1 connection closer] INFO  jdbc.connection - 24. Connection closed
+2019-05-06 17:09:31 [HikariPool-1 connection adder] INFO  jdbc.connection - 33. Connection opened
+2019-05-06 17:09:33 [HikariPool-1 connection closer] INFO  jdbc.connection - 26. Connection closed
+2019-05-06 17:09:33 [HikariPool-1 connection adder] INFO  jdbc.connection - 34. Connection opened
+2019-05-06 17:09:34 [HikariPool-1 connection closer] INFO  jdbc.connection - 22. Connection closed
+2019-05-06 17:09:34 [HikariPool-1 connection adder] INFO  jdbc.connection - 35. Connection opened
+2019-05-06 17:09:34 [HikariPool-1 connection closer] INFO  jdbc.connection - 27. Connection closed
+2019-05-06 17:09:34 [HikariPool-1 connection adder] INFO  jdbc.connection - 36. Connection opened
+2019-05-06 17:09:51 [HikariPool-1 connection closer] INFO  jdbc.connection - 25. Connection closed
+2019-05-06 17:09:51 [HikariPool-1 connection adder] INFO  jdbc.connection - 37. Connection opened
+2019-05-06 17:09:57 [HikariPool-1 connection closer] INFO  jdbc.connection - 29. Connection closed
+2019-05-06 17:09:57 [HikariPool-1 connection adder] INFO  jdbc.connection - 38. Connection opened
+2019-05-06 17:10:04 [HikariPool-1 connection closer] INFO  jdbc.connection - 28. Connection closed
+2019-05-06 17:10:04 [HikariPool-1 connection adder] INFO  jdbc.connection - 39. Connection opened
+2019-05-06 17:10:17 [HikariPool-1 connection closer] INFO  jdbc.connection - 30. Connection closed
+2019-05-06 17:10:17 [HikariPool-1 connection adder] INFO  jdbc.connection - 40. Connection opened
+2019-05-06 17:38:43 [HikariPool-1 connection closer] INFO  jdbc.connection - 32. Connection closed
+2019-05-06 17:38:43 [HikariPool-1 connection adder] INFO  jdbc.connection - 41. Connection opened
+2019-05-06 17:38:54 [HikariPool-1 connection closer] INFO  jdbc.connection - 31. Connection closed
+2019-05-06 17:38:54 [HikariPool-1 connection adder] INFO  jdbc.connection - 42. Connection opened
+2019-05-06 17:39:05 [HikariPool-1 connection closer] INFO  jdbc.connection - 35. Connection closed
+2019-05-06 17:39:05 [HikariPool-1 connection adder] INFO  jdbc.connection - 43. Connection opened
+2019-05-06 17:39:09 [HikariPool-1 connection closer] INFO  jdbc.connection - 33. Connection closed
+2019-05-06 17:39:09 [HikariPool-1 connection adder] INFO  jdbc.connection - 44. Connection opened
+2019-05-06 17:39:21 [HikariPool-1 connection closer] INFO  jdbc.connection - 34. Connection closed
+2019-05-06 17:39:21 [HikariPool-1 connection adder] INFO  jdbc.connection - 45. Connection opened
+2019-05-06 17:39:23 [HikariPool-1 connection closer] INFO  jdbc.connection - 37. Connection closed
+2019-05-06 17:39:23 [HikariPool-1 connection adder] INFO  jdbc.connection - 46. Connection opened
+2019-05-06 17:39:28 [HikariPool-1 connection closer] INFO  jdbc.connection - 39. Connection closed
+2019-05-06 17:39:28 [HikariPool-1 connection adder] INFO  jdbc.connection - 47. Connection opened
+2019-05-06 17:39:28 [HikariPool-1 connection closer] INFO  jdbc.connection - 36. Connection closed
+2019-05-06 17:39:28 [HikariPool-1 connection adder] INFO  jdbc.connection - 48. Connection opened
+2019-05-06 17:39:46 [HikariPool-1 connection closer] INFO  jdbc.connection - 38. Connection closed
+2019-05-06 17:39:46 [HikariPool-1 connection adder] INFO  jdbc.connection - 49. Connection opened
+2019-05-06 17:40:01 [HikariPool-1 connection closer] INFO  jdbc.connection - 40. Connection closed
+2019-05-06 17:40:01 [HikariPool-1 connection adder] INFO  jdbc.connection - 50. Connection opened
+2019-05-06 17:42:34 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 17:42:34 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 17:42:34 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 17:42:34 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 17:42:34 [http-nio-8080-exec-4] INFO  com.eluo.controller.HomeController - called /home/hello
+2019-05-06 17:42:34 [http-nio-8080-exec-4] DEBUG com.eluo.controller.HomeController - called debug /home/hello
+2019-05-06 17:42:34 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.Exception: occurd error!] with root cause
+java.lang.Exception: occurd error!
+	at com.eluo.controller.HomeController.hello(HomeController.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter.doFilterInternal(DefaultLogoutPageGeneratingFilter.java:52)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:206)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
