@@ -11,9 +11,6 @@ public class EluoSpringBootApplication {
 		//SpringApplication.run(EluoSpringBootApplication.class, args);
 		SpringApplication springApplication = new SpringApplication(EluoSpringBootApplication.class);
 		springApplication.run(args);
-		System.out.println("Occured issue01");
-		System.out.println("Occured issue011");
-        System.out.println("Occured issue012");
 		System.out.println("Occured issue02");
 		System.out.println("dev!!!");
 		System.out.println("dev01!!!");
