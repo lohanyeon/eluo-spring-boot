@@ -12,6 +12,7 @@ public class EluoSpringBootApplication {
 		SpringApplication springApplication = new SpringApplication(EluoSpringBootApplication.class);
 		springApplication.run(args);
 		System.out.println("dev!!!");
+		System.out.println("dev01!!!");
 	}
 
 }
