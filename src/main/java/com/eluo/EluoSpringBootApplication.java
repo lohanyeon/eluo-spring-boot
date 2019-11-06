@@ -11,6 +11,8 @@ public class EluoSpringBootApplication {
 		//SpringApplication.run(EluoSpringBootApplication.class, args);
 		SpringApplication springApplication = new SpringApplication(EluoSpringBootApplication.class);
 		springApplication.run(args);
+
+		System.out.println("issue re 01");
 	}
 
 }
