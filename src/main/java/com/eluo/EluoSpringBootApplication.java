@@ -13,6 +13,7 @@ public class EluoSpringBootApplication {
 		springApplication.run(args);
 		System.out.println("Occured issue01");
 		System.out.println("Occured issue011");
+        System.out.println("Occured issue012");
 	}
 
 }
