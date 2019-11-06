@@ -14,6 +14,7 @@ public class EluoSpringBootApplication {
 		System.out.println("Occured issue01");
 		System.out.println("Occured issue011");
         System.out.println("Occured issue012");
+		System.out.println("Occured issue02");
 	}
 
 }
